@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const API_BASE = 'https://backend-pp8q.onrender.com';
+const API_BASE = 'https://backend-4-i03l.onrender.com';
 
 function StudentDashboard() {
   const student = JSON.parse(localStorage.getItem('student') || 'null');
